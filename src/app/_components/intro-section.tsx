@@ -54,7 +54,7 @@ function IntroSection() {
           </a>
           <a
             href='#feature'
-            className='border-2 border-gray-300 text-white hover:border-green-600 hover:text-green-600 py-2 px-4 text-md rounded font-bold transition-all duration-200'
+            className='border-2 border-gray-300 text-white hover:border-green-600 hover:text-green-600 py-2 px-3 text-md rounded font-bold transition-all duration-200'
             onClick={() => {
               track('features');
             }}
