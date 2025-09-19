@@ -45,7 +45,7 @@ function IntroSection() {
         <div className='space-x-4'>
           <a
             href='#investment'
-            className='bg-green-600 hover:bg-green-700 py-2 px-4 text-md text-white rounded shadow-lg font-bold transition-colors'
+            className='bg-green-600 hover:bg-green-700 py-2 px-2 text-sm text-white rounded shadow-lg font-bold transition-colors'
             onClick={() => {
               track('enrollment', { location: 'intro' });
             }}
@@ -54,7 +54,7 @@ function IntroSection() {
           </a>
           <a
             href='#feature'
-            className='border-2 border-gray-300 text-white hover:border-green-600 hover:text-green-600 py-2 px-3 text-md rounded font-bold transition-all duration-200'
+            className='border-2 border-gray-300 text-white hover:border-green-600 hover:text-green-600 py-2 px-2 text-sm rounded font-bold transition-all duration-200'
             onClick={() => {
               track('features');
             }}
